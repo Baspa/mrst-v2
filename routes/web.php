@@ -14,4 +14,8 @@ Route::get('dashboard', function () {
     return Inertia::render('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+Route::get('painter', function () {
+    return Inertia::render('painter');
+})->name('painter');
+
 require __DIR__.'/settings.php';
