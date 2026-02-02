@@ -6,7 +6,7 @@ export default function About() {
             <div className="container mx-auto px-4">
                 <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
                     <div className="flex flex-col justify-center">
-                        <h2 className="mb-6 bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-4xl font-bold tracking-tight text-transparent">
+                        <h2 className="mb-6 bg-gradient-to-r from-emerald-600 to-amber-600 bg-clip-text text-4xl font-bold tracking-tight text-transparent">
                             Over Ons Vakmanschap
                         </h2>
                         <p className="mb-4 text-lg text-muted-foreground">
@@ -23,8 +23,8 @@ export default function About() {
                         </p>
                         <div className="grid gap-4 sm:grid-cols-2">
                             <div className="flex items-start gap-3">
-                                <div className="flex size-10 items-center justify-center rounded-full bg-blue-100 dark:bg-blue-950">
-                                    <Icon name="check" className="size-5 text-blue-600 dark:text-blue-400" />
+                                <div className="flex size-10 items-center justify-center rounded-full bg-emerald-100 dark:bg-emerald-950">
+                                    <Icon name="check" className="size-5 text-emerald-600 dark:text-emerald-400" />
                                 </div>
                                 <div>
                                     <h3 className="font-semibold text-foreground">
@@ -36,8 +36,8 @@ export default function About() {
                                 </div>
                             </div>
                             <div className="flex items-start gap-3">
-                                <div className="flex size-10 items-center justify-center rounded-full bg-orange-100 dark:bg-orange-950">
-                                    <Icon name="clock" className="size-5 text-orange-600 dark:text-orange-400" />
+                                <div className="flex size-10 items-center justify-center rounded-full bg-amber-100 dark:bg-amber-950">
+                                    <Icon name="clock" className="size-5 text-amber-600 dark:text-amber-400" />
                                 </div>
                                 <div>
                                     <h3 className="font-semibold text-foreground">
@@ -50,7 +50,7 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                    <div className="relative aspect-square overflow-hidden rounded-2xl bg-gradient-to-br from-blue-200 to-orange-200 dark:from-blue-900 dark:to-orange-900">
+                    <div className="relative aspect-square overflow-hidden rounded-2xl bg-gradient-to-br from-emerald-200 to-amber-200 dark:from-emerald-900 dark:to-amber-900">
                         <div className="flex size-full items-center justify-center text-muted-foreground">
                             <Icon name="image" className="size-24 opacity-30" />
                         </div>

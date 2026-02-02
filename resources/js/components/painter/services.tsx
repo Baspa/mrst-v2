@@ -7,48 +7,48 @@ const services = [
         title: 'Binnenschilderwerk',
         description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        color: 'blue',
+        color: 'emerald',
     },
     {
         icon: 'building',
         title: 'Buitenschilderwerk',
         description:
             'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        color: 'orange',
+        color: 'amber',
     },
     {
         icon: 'warehouse',
         title: 'Commerciële Projecten',
         description:
             'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        color: 'blue',
+        color: 'emerald',
     },
     {
         icon: 'paint-bucket',
         title: 'Meubel Renovatie',
         description:
             'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        color: 'orange',
+        color: 'amber',
     },
     {
         icon: 'palette',
         title: 'Kleuradvies',
         description:
             'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.',
-        color: 'blue',
+        color: 'emerald',
     },
     {
         icon: 'sparkles',
         title: 'Behang Installatie',
         description:
             'Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.',
-        color: 'orange',
+        color: 'amber',
     },
 ];
 
 const colorClasses = {
-    blue: 'bg-blue-100 text-blue-600 dark:bg-blue-950 dark:text-blue-400',
-    orange: 'bg-orange-100 text-orange-600 dark:bg-orange-950 dark:text-orange-400',
+    emerald: 'bg-emerald-100 text-emerald-600 dark:bg-emerald-950 dark:text-emerald-400',
+    amber: 'bg-amber-100 text-amber-600 dark:bg-amber-950 dark:text-amber-400',
 };
 
 export default function Services() {
@@ -56,7 +56,7 @@ export default function Services() {
         <section id="services" className="bg-muted/30 py-20">
             <div className="container mx-auto px-4">
                 <div className="mb-12 text-center">
-                    <h2 className="mb-4 bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-4xl font-bold tracking-tight text-transparent">
+                    <h2 className="mb-4 bg-gradient-to-r from-emerald-600 to-amber-600 bg-clip-text text-4xl font-bold tracking-tight text-transparent">
                         Onze Diensten
                     </h2>
                     <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
