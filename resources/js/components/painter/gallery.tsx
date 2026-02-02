@@ -1,20 +1,44 @@
 import { Icon } from '@/components/ui/icon';
 
 const galleryItems = [
-    { id: 1, title: 'Moderne Woonkamer' },
-    { id: 2, title: 'Buitengevel Renovatie' },
-    { id: 3, title: 'Keuken Meubels' },
-    { id: 4, title: 'Commerciële Kantoorruimte' },
-    { id: 5, title: 'Slaapkamer Makeover' },
-    { id: 6, title: 'Buitengevel' },
+    {
+        id: 1,
+        title: 'Moderne Woonkamer',
+        gradient: 'from-blue-300 via-cyan-200 to-teal-300 dark:from-blue-800 dark:via-cyan-700 dark:to-teal-800',
+    },
+    {
+        id: 2,
+        title: 'Buitengevel Renovatie',
+        gradient: 'from-green-300 via-emerald-200 to-lime-300 dark:from-green-800 dark:via-emerald-700 dark:to-lime-800',
+    },
+    {
+        id: 3,
+        title: 'Keuken Meubels',
+        gradient: 'from-orange-300 via-amber-200 to-yellow-300 dark:from-orange-800 dark:via-amber-700 dark:to-yellow-800',
+    },
+    {
+        id: 4,
+        title: 'Commerciële Kantoorruimte',
+        gradient: 'from-purple-300 via-fuchsia-200 to-pink-300 dark:from-purple-800 dark:via-fuchsia-700 dark:to-pink-800',
+    },
+    {
+        id: 5,
+        title: 'Slaapkamer Makeover',
+        gradient: 'from-rose-300 via-pink-200 to-red-300 dark:from-rose-800 dark:via-pink-700 dark:to-red-800',
+    },
+    {
+        id: 6,
+        title: 'Buitengevel',
+        gradient: 'from-indigo-300 via-violet-200 to-purple-300 dark:from-indigo-800 dark:via-violet-700 dark:to-purple-800',
+    },
 ];
 
 export default function Gallery() {
     return (
-        <section id="gallery" className="py-20">
+        <section id="gallery" className="bg-gradient-to-br from-green-50 via-teal-50 to-cyan-50 py-20 dark:from-green-950/30 dark:via-teal-950/30 dark:to-cyan-950/30">
             <div className="container mx-auto px-4">
                 <div className="mb-12 text-center">
-                    <h2 className="mb-4 text-4xl font-bold tracking-tight text-foreground">
+                    <h2 className="mb-4 bg-gradient-to-r from-green-600 to-teal-600 bg-clip-text text-4xl font-bold tracking-tight text-transparent">
                         Ons Recent Werk
                     </h2>
                     <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
@@ -26,18 +50,18 @@ export default function Gallery() {
                     {galleryItems.map((item) => (
                         <div
                             key={item.id}
-                            className="group relative aspect-[4/3] overflow-hidden rounded-xl bg-gradient-to-br from-primary/20 to-primary/5 transition-transform hover:scale-[1.02]"
+                            className={`group relative aspect-[4/3] overflow-hidden rounded-xl bg-gradient-to-br shadow-lg transition-all hover:scale-[1.05] hover:shadow-2xl ${item.gradient}`}
                         >
                             <div className="flex size-full items-center justify-center">
                                 <Icon
                                     name="image"
-                                    className="size-16 text-muted-foreground opacity-20"
+                                    className="size-16 text-white opacity-40"
                                 />
                             </div>
-                            <div className="absolute inset-0 flex items-end bg-gradient-to-t from-black/60 to-transparent opacity-0 transition-opacity group-hover:opacity-100">
+                            <div className="absolute inset-0 flex items-end bg-gradient-to-t from-black/70 to-transparent opacity-0 transition-opacity group-hover:opacity-100">
                                 <div className="p-4 text-white">
                                     <h3 className="text-lg font-semibold">{item.title}</h3>
-                                    <p className="text-sm text-white/80">
+                                    <p className="text-sm text-white/90">
                                         Lorem ipsum dolor sit amet
                                     </p>
                                 </div>
