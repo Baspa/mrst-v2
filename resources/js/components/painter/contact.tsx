@@ -5,11 +5,11 @@ import { Icon } from '@/components/ui/icon';
 
 export default function Contact() {
     return (
-        <section id="contact" className="bg-gradient-to-br from-pink-50 via-rose-50 to-purple-50 py-20 dark:from-pink-950/30 dark:via-rose-950/30 dark:to-purple-950/30">
+        <section id="contact" className="bg-muted/30 py-20">
             <div className="container mx-auto px-4">
                 <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
                     <div>
-                        <h2 className="mb-6 bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-4xl font-bold tracking-tight text-transparent">
+                        <h2 className="mb-6 bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-4xl font-bold tracking-tight text-transparent">
                             Neem Contact Op
                         </h2>
                         <p className="mb-8 text-lg text-muted-foreground">
@@ -31,8 +31,8 @@ export default function Contact() {
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">
-                                <div className="flex size-12 shrink-0 items-center justify-center rounded-lg bg-purple-100 dark:bg-purple-950">
-                                    <Icon name="mail" className="size-5 text-purple-600 dark:text-purple-400" />
+                                <div className="flex size-12 shrink-0 items-center justify-center rounded-lg bg-orange-100 dark:bg-orange-950">
+                                    <Icon name="mail" className="size-5 text-orange-600 dark:text-orange-400" />
                                 </div>
                                 <div>
                                     <h3 className="mb-1 font-semibold text-foreground">
@@ -44,10 +44,10 @@ export default function Contact() {
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">
-                                <div className="flex size-12 shrink-0 items-center justify-center rounded-lg bg-pink-100 dark:bg-pink-950">
+                                <div className="flex size-12 shrink-0 items-center justify-center rounded-lg bg-blue-100 dark:bg-blue-950">
                                     <Icon
                                         name="map-pin"
-                                        className="size-5 text-pink-600 dark:text-pink-400"
+                                        className="size-5 text-blue-600 dark:text-blue-400"
                                     />
                                 </div>
                                 <div>
@@ -63,7 +63,7 @@ export default function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-2xl border-2 border-purple-200 bg-card p-8 shadow-xl dark:border-purple-800">
+                    <div className="rounded-2xl border-2 border-blue-200 bg-card p-8 shadow-xl dark:border-blue-800">
                         <h3 className="mb-6 text-2xl font-semibold text-foreground">
                             Vraag een Offerte Aan
                         </h3>
@@ -74,7 +74,7 @@ export default function Contact() {
                                     id="name"
                                     type="text"
                                     placeholder="Jan Jansen"
-                                    className="mt-1.5 border-purple-200 focus-visible:ring-purple-600 dark:border-purple-800"
+                                    className="mt-1.5"
                                 />
                             </div>
                             <div>
@@ -83,7 +83,7 @@ export default function Contact() {
                                     id="email"
                                     type="email"
                                     placeholder="jan@voorbeeld.nl"
-                                    className="mt-1.5 border-purple-200 focus-visible:ring-purple-600 dark:border-purple-800"
+                                    className="mt-1.5"
                                 />
                             </div>
                             <div>
@@ -92,7 +92,7 @@ export default function Contact() {
                                     id="phone"
                                     type="tel"
                                     placeholder="06 12345678"
-                                    className="mt-1.5 border-purple-200 focus-visible:ring-purple-600 dark:border-purple-800"
+                                    className="mt-1.5"
                                 />
                             </div>
                             <div>
@@ -101,12 +101,12 @@ export default function Contact() {
                                     id="message"
                                     rows={4}
                                     placeholder="Vertel ons over uw project..."
-                                    className="mt-1.5 flex min-h-[80px] w-full rounded-md border border-purple-200 bg-background px-3 py-2 text-base ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-600 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 dark:border-purple-800 md:text-sm"
+                                    className="mt-1.5 flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm"
                                 />
                             </div>
                             <Button
                                 type="submit"
-                                className="w-full bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700"
+                                className="w-full bg-gradient-to-r from-blue-600 to-orange-600 hover:from-blue-700 hover:to-orange-700"
                             >
                                 Verstuur Bericht
                             </Button>

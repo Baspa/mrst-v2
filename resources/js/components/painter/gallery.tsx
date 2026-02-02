@@ -4,41 +4,41 @@ const galleryItems = [
     {
         id: 1,
         title: 'Moderne Woonkamer',
-        gradient: 'from-blue-300 via-cyan-200 to-teal-300 dark:from-blue-800 dark:via-cyan-700 dark:to-teal-800',
+        gradient: 'from-blue-300 to-blue-400 dark:from-blue-800 dark:to-blue-900',
     },
     {
         id: 2,
         title: 'Buitengevel Renovatie',
-        gradient: 'from-green-300 via-emerald-200 to-lime-300 dark:from-green-800 dark:via-emerald-700 dark:to-lime-800',
+        gradient: 'from-orange-300 to-orange-400 dark:from-orange-800 dark:to-orange-900',
     },
     {
         id: 3,
         title: 'Keuken Meubels',
-        gradient: 'from-orange-300 via-amber-200 to-yellow-300 dark:from-orange-800 dark:via-amber-700 dark:to-yellow-800',
+        gradient: 'from-blue-400 to-blue-500 dark:from-blue-700 dark:to-blue-800',
     },
     {
         id: 4,
         title: 'Commerciële Kantoorruimte',
-        gradient: 'from-purple-300 via-fuchsia-200 to-pink-300 dark:from-purple-800 dark:via-fuchsia-700 dark:to-pink-800',
+        gradient: 'from-orange-400 to-orange-500 dark:from-orange-700 dark:to-orange-800',
     },
     {
         id: 5,
         title: 'Slaapkamer Makeover',
-        gradient: 'from-rose-300 via-pink-200 to-red-300 dark:from-rose-800 dark:via-pink-700 dark:to-red-800',
+        gradient: 'from-blue-500 to-blue-600 dark:from-blue-600 dark:to-blue-700',
     },
     {
         id: 6,
         title: 'Buitengevel',
-        gradient: 'from-indigo-300 via-violet-200 to-purple-300 dark:from-indigo-800 dark:via-violet-700 dark:to-purple-800',
+        gradient: 'from-orange-500 to-orange-600 dark:from-orange-600 dark:to-orange-700',
     },
 ];
 
 export default function Gallery() {
     return (
-        <section id="gallery" className="bg-gradient-to-br from-green-50 via-teal-50 to-cyan-50 py-20 dark:from-green-950/30 dark:via-teal-950/30 dark:to-cyan-950/30">
+        <section id="gallery" className="py-20">
             <div className="container mx-auto px-4">
                 <div className="mb-12 text-center">
-                    <h2 className="mb-4 bg-gradient-to-r from-green-600 to-teal-600 bg-clip-text text-4xl font-bold tracking-tight text-transparent">
+                    <h2 className="mb-4 bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-4xl font-bold tracking-tight text-transparent">
                         Ons Recent Werk
                     </h2>
                     <p className="mx-auto max-w-2xl text-lg text-muted-foreground">

@@ -2,11 +2,11 @@ import { Icon } from '@/components/ui/icon';
 
 export default function About() {
     return (
-        <section id="about" className="bg-gradient-to-br from-orange-50 via-yellow-50 to-red-50 py-20 dark:from-orange-950/30 dark:via-yellow-950/30 dark:to-red-950/30">
+        <section id="about" className="py-20">
             <div className="container mx-auto px-4">
                 <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
                     <div className="flex flex-col justify-center">
-                        <h2 className="mb-6 bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-4xl font-bold tracking-tight text-transparent">
+                        <h2 className="mb-6 bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text text-4xl font-bold tracking-tight text-transparent">
                             Over Ons Vakmanschap
                         </h2>
                         <p className="mb-4 text-lg text-muted-foreground">
@@ -23,8 +23,8 @@ export default function About() {
                         </p>
                         <div className="grid gap-4 sm:grid-cols-2">
                             <div className="flex items-start gap-3">
-                                <div className="flex size-10 items-center justify-center rounded-full bg-green-100 dark:bg-green-950">
-                                    <Icon name="check" className="size-5 text-green-600 dark:text-green-400" />
+                                <div className="flex size-10 items-center justify-center rounded-full bg-blue-100 dark:bg-blue-950">
+                                    <Icon name="check" className="size-5 text-blue-600 dark:text-blue-400" />
                                 </div>
                                 <div>
                                     <h3 className="font-semibold text-foreground">
@@ -36,8 +36,8 @@ export default function About() {
                                 </div>
                             </div>
                             <div className="flex items-start gap-3">
-                                <div className="flex size-10 items-center justify-center rounded-full bg-blue-100 dark:bg-blue-950">
-                                    <Icon name="clock" className="size-5 text-blue-600 dark:text-blue-400" />
+                                <div className="flex size-10 items-center justify-center rounded-full bg-orange-100 dark:bg-orange-950">
+                                    <Icon name="clock" className="size-5 text-orange-600 dark:text-orange-400" />
                                 </div>
                                 <div>
                                     <h3 className="font-semibold text-foreground">
@@ -50,7 +50,7 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                    <div className="relative aspect-square overflow-hidden rounded-2xl bg-gradient-to-br from-orange-200 via-yellow-200 to-red-200 dark:from-orange-900 dark:via-yellow-900 dark:to-red-900">
+                    <div className="relative aspect-square overflow-hidden rounded-2xl bg-gradient-to-br from-blue-200 to-orange-200 dark:from-blue-900 dark:to-orange-900">
                         <div className="flex size-full items-center justify-center text-muted-foreground">
                             <Icon name="image" className="size-24 opacity-30" />
                         </div>
